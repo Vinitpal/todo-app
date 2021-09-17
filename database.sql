@@ -1,4 +1,4 @@
-CREATE DATABASE todoapp;
+-- CREATE DATABASE todoapp;
 
 CREATE TABLE todo (
     todo_id SERIAL PRIMARY KEY,
