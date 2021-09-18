@@ -10,7 +10,7 @@ const InputTodo = () => {
   const onSubmitForm = async (e) => {
     e.preventDefault();
     try {
-      if (description.length > 0) {
+      if (description.length > 0 && description.length <= 18) {
         const body = { description };
         const response = await fetch("/todos", {
           method: "POST",
