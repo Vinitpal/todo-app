@@ -42,7 +42,7 @@ const EditTodo = ({ todo }) => {
           showModal ? "scale-100" : "scale-0"
         } fixed top-0 left-0 z-20 w-screen h-screen flex items-center justify-center bg-gray-500 bg-opacity-50 transform transition-transform duration-300`}
       >
-        <div className="bg-orange-500 rounded-md w-1/4 h-2/4 p-4">
+        <div className="bg-orange-500 rounded-md w-10/12 lg:w-1/4 h-2/4 p-4">
           <button
             type="button"
             className="focus:outline-none"

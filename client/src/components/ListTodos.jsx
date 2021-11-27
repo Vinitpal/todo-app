@@ -17,7 +17,7 @@ const ListTodos = () => {
 
   return (
     <div className="mb-8">
-      <div className="justify-items-center grid grid-flow-row grid-cols-4 gap-2">
+      <div className="justify-items-center grid grid-flow-row grid-cols-1 lg:grid-cols-4 gap-2">
         {todos.map((todo, i) => (
           <TodoCard todo={todo} key={todo.todo_id} />
         ))}
