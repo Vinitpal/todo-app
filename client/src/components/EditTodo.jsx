@@ -21,7 +21,6 @@ const EditTodo = ({ todo }) => {
       const data = await getTodos();
       setTodos(data);
       setShowModal(false);
-      console.log(response);
     } catch (err) {
       console.error(err.message);
     }

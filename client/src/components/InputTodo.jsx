@@ -18,7 +18,6 @@ const InputTodo = () => {
           body: JSON.stringify(body),
         });
 
-        console.log(response);
         setTodo(getTodos());
       }
     } catch (err) {

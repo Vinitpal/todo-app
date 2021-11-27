@@ -19,7 +19,7 @@ const TodoCard = ({ todo }) => {
   };
 
   return (
-    <div className="bg-orange-500 rounded shadow p-6 pb-10 w-64 m-4 relative">
+    <div className="bg-orange-500 rounded shadow p-6 pb-10 w-64 m-4 relative break-all">
       <h5 className="text-black text-3xl font-bold mb-4 mt-0">
         {todo.description}
       </h5>

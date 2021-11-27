@@ -9,10 +9,7 @@ const ListTodos = () => {
   useEffect(() => {
     async function fetchData() {
       const data = await getTodos();
-      console.log(data);
-
       setTodos(data);
-      console.log(todos);
     }
 
     fetchData();
